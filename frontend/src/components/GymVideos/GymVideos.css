@@ -1,73 +1,72 @@
 .gym-video-section {
-    width: 100%;
-    margin: 40px auto;
-    padding: 20px;
-    /* background-color: #3f5646; */
-    border-radius: 8px;
-    /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
-  }
-  
-  .gym-video-container {
-    display: flex;
-    align-items: center;
-    overflow-x: auto;
-    gap: 20px;
-    padding-top: 50px;
-    padding-bottom: 50px;
-    scrollbar-width: thin;
-    scrollbar-color: #888 #3f5646;
-    /* padding: 10px; */
-  }
-  
-  .gym-video-container::-webkit-scrollbar {
-    height: 8px;
-    display: none;
-  }
-  
-  .gym-video-container video {
-    width: 600px;
-    height: 600px; 
-    max-width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-  }
-  
-  .gym-video-item {
-    flex: 0 0 auto;
-    max-width: 650px; /* Adjust max width for video items */
-    background-color: #2b3e35;
-    padding: 20px;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .gym-video-description {
-    font-size: 18px;
-    color: #ffffff;
-    margin-top: 10px;
-  }
-  
-  .gym-video-section hr{
-    margin: 20px 0;
-    height: 2px;
-    background-color: #e2e2e2;
-    border: none;
-  }
+  width: 100%;
+  margin: 40px auto;
+  padding: 20px;
+  /* background-color: #3f5646; */
+  border-radius: 8px;
+  /* box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); */
+}
+
+.gym-video-container {
+  display: flex;
+  align-items: center;
+  overflow-x: auto;
+  gap: 20px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  scrollbar-width: thin;
+  scrollbar-color: #888 #3f5646;
+  /* padding: 10px; */
+}
+
+.gym-video-container::-webkit-scrollbar {
+  height: 8px;
+  display: none;
+}
+
+.gym-video-container video {
+  width: 600px;
+  height: 600px; 
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+}
+
+.gym-video-item {
+  flex: 0 0 auto;
+  max-width: 650px; /* Adjust max width for video items */
+  background-color: #2b3e35;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.gym-video-description {
+  font-size: 18px;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+.gym-video-section hr{
+  margin: 20px 0;
+  height: 2px;
+  background-color: #e2e2e2;
+  border: none;
+}
 
 @media (max-width:850px){
 .gym-video-container video {
-    width: 300px;
-    height: 300px; 
-    max-width: 100%;
-    border-radius: 8px;
-    object-fit: cover;
-    }
+  width: 300px;
+  height: 300px; 
+  max-width: 100%;
+  border-radius: 8px;
+  object-fit: cover;
+  }
 }
 
 @media (max-width:750px){
 .hero-content p{
-    font-size: 4.5vw;
+  font-size: 4.5vw;
 }
 }
-  

@@ -87,7 +87,7 @@
   .שמן-מאד { color: #e78c84; }
   
   .bmi-calculator hr{
-    /* margin: 20px 0; */
+    margin: 20px;
     height: 2px;
     background-color: #e2e2e2;
     border: none;

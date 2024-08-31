@@ -27,7 +27,7 @@ const Navbar = () => {
       <nav className={`navbar-menu ${isMobileMenuOpen ? 'mobile-open' : ''}`}>
         <Link to='/' onClick={() => handleMenuClick("home")} className={menu === "home" ? "active" : ""}>ראשי</Link>
         <a href='#about-us' onClick={() => handleMenuClick("about-us")} className={menu === "about-us" ? "active" : ""}>העשייה שלנו</a>
-        <a href='#BMI' onClick={() => handleMenuClick("BMI")} className={menu === "BMI" ? "active" : ""}>BMI</a>
+        <a href='#BMI' onClick={() => handleMenuClick("BMI")} className={menu === "BMI" ? "active" : ""}>BMI מחשבון</a>
         <a href='#contact-us' onClick={() => handleMenuClick("contact-us")} className={menu === "contact-us" ? "active" : ""}>צור קשר</a>
       </nav>
     </div>

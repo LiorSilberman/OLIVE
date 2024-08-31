@@ -1,12 +1,10 @@
 import React, { useEffect, useState } from 'react';
 import './BMICalculator.css';
-import Aos from 'aos';
+import AOS from 'aos';
+import 'aos/dist/aos.css';
 
 const BMICalculator = () => {
-    useEffect(()=> {
-        Aos.init()
-    }, [])
-
+    
     const [height, setHeight] = useState('');
     const [weight, setWeight] = useState('');
     const [bmi, setBMI] = useState(null);
@@ -29,7 +27,7 @@ const BMICalculator = () => {
     };
 
     return (
-        <div className="bmi-calculator" id='BMI' data-aos="fade-up" data-aos-anchor-placement="center-center">
+        <div className="bmi-calculator" id='BMI'>
             <div className="bmi-content">
                 <h2 className="bmi-title">מחשבון BMI</h2>
                 <div className="input-group">
