@@ -1,0 +1,58 @@
+.header {
+  position:relative;
+  width: 100%;
+  background: url('/logo.png') no-repeat center ;
+  background-size:contain; 
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  direction: rtl;
+  animation: fadeIn 3s;
+  top: 50px;
+}
+
+.hero-content {
+  color: white;
+  text-align: center;
+  padding: 0 20px;
+  margin-top: 40%;
+  position:relative;
+}
+
+.hero-content h1 {
+  font-size: 3.5rem;
+  position: relative;;
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+  direction: rtl;
+}
+
+.cta-button {
+  padding: 10px 30px 10px;
+  background-color: #ff6347;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2rem;
+  border-radius: 5px;
+  text-align: center;
+  transition: background-color 0.3s ease;
+}
+
+.cta-button:hover {
+  background-color: #ff4500;
+}
+
+
+/* 
+@media (max-width:850px){
+}
+
+@media (max-width:750px){
+  .hero-content p{
+    font-size: 4.5vw;
+  }
+} */

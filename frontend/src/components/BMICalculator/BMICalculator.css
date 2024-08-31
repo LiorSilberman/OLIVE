@@ -1,0 +1,94 @@
+.bmi-calculator{
+    width: 100%;
+    margin: 40px auto;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    position: relative;
+    bottom: 100px;
+    border-radius: 8px;
+}
+
+.bmi-content {
+    max-width: 400px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #3f5646; /* Background color */
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    direction: rtl;
+  }
+  
+  .bmi-title {
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff; /* Changed to white for better contrast */
+  }
+  
+  .input-group {
+    margin-bottom: 15px;
+  }
+  
+  .input-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 14px;
+    color: #d3e1db; /* Lighter shade of the background color */
+  }
+  
+  .input-group input {
+    width: 100%;
+    padding: 8px;
+    font-size: 16px;
+    border: 1px solid #8fa899; /* Border color in a shade similar to the background */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #f5f5f5; /* Light background to contrast with input border */
+    color: #3f5646; /* Input text color to match the theme */
+  }
+  
+  .calculate-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #2b3e35; /* Darker shade of the background color */
+    color: #ffffff; /* White text for better contrast */
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .calculate-btn:hover {
+    background-color: #526d5d; /* Slightly lighter shade on hover */
+  }
+  
+  .result {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .bmi-value {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color: #ffffff; /* White text for better visibility */
+  }
+  
+  .bmi-category {
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  .תת-משקל { color: #87c1d4; } /* Adjusted shades to fit the theme */
+  .משקל-תקין { color: #a3d9a5; }
+  .עודף-משקל { color: #e7b97e; }
+  .שמן-מאד { color: #e78c84; }
+  
+  .bmi-calculator hr{
+    /* margin: 20px 0; */
+    height: 2px;
+    background-color: #e2e2e2;
+    border: none;
+  }

@@ -1,0 +1,107 @@
+.navbar {
+    display:flex;
+    justify-content: space-between;
+    /* align-items: center; */
+    padding: 1rem;
+    background-color: #3f5646;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  /* .logo {
+    height: 400px;
+    position: relative;
+    top: 500px;
+    left:50%;
+  } */
+  
+  .navbar-menu {
+    display: flex;
+    list-style-type: none;
+    margin: 0; 
+    padding: 0;
+    position: relative;
+    right: 5%;
+  }
+  
+  .navbar-menu a {
+    margin-left: 1rem;
+    text-decoration: none;
+    color:#fffefd;
+    font-size: 22px;
+  }
+  
+  .navbar-menu a.active {
+    font-weight: bold;
+  }
+  
+  .burger-button {
+    display: none;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 30px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+    z-index: 1001;
+  }
+  
+  .burger-button span {
+    width: 30px;
+    height: 3px;
+    background: #333;
+    border-radius: 10px;
+    transition: all 0.3s linear;
+    position: relative;
+    transform-origin: 1px;
+  }
+  
+  @media screen and (max-width: 768px) {
+    .burger-button {
+      display: flex;
+    }
+    
+    .logo {
+        left:0%;
+      }
+    .navbar-menu {
+      display: none;
+      flex-direction: column;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #3f5646;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      max-height: calc(100vh - 60px);
+      overflow-y: auto;
+      z-index: 999;
+    }
+  
+    .navbar-menu.mobile-open {
+      display: flex;
+    }
+  
+    .navbar-menu a {
+      padding: 1rem;
+      margin: 0;
+      border-top: 1px solid #6ebf30;
+      text-align: center;
+      width: 100%;
+      box-sizing: border-box;
+    }
+  
+    .burger-button.open span:nth-child(1) {
+      transform: rotate(45deg);
+    }
+  
+    .burger-button.open span:nth-child(2) {
+      opacity: 0;
+    }
+  
+    .burger-button.open span:nth-child(3) {
+      transform: rotate(-45deg);
+    }
+  }

@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap');
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  scroll-behavior: smooth;
+  
+}
+body{
+  min-height: 100vh;
+  background-color: #92c0a1;
+  font-family: 'Rubik', sans-serif;
+}
+
+
+a{
+  text-decoration: none;
+  color: inherit;
+}
+
+.app{
+  /* width: 95%; */
+  margin: auto;
+}
+
+
+@keyframes fadeIn {
+  0%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
