@@ -13,8 +13,6 @@ RUN npm install
 # Copy the project files into the Docker image
 COPY . .
 
-COPY .env .
-
 # Build the app for production
 RUN npm run build
 
